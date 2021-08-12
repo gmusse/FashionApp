@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main">
+
+
+    <Button
+        android:id="@+id/botaoJaqueta"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="178dp"
+        android:layout_marginEnd="98dp"
+        android:layout_gravity="center_horizontal|center"
+        android:text="Jaqueta" />
+
+    <Button
+        android:id="@+id/botaoCamisa"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="265dp"
+        android:layout_marginEnd="99dp"
+        android:layout_gravity="center_horizontal|center"
+        android:text="Camisa" />
+
+    <Button
+        android:id="@+id/botaoRegata"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="345dp"
+        android:layout_marginEnd="99dp"
+        android:layout_gravity="center_horizontal|center"
+        android:text="Regata" />
+
+    <Button
+        android:id="@+id/botaoCalca"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="423dp"
+        android:layout_marginEnd="98dp"
+        android:layout_gravity="center_horizontal|center"
+        android:text="Calça alfaiataria" />
+
+    <Button
+        android:id="@+id/botaoVestido"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="498dp"
+        android:layout_marginEnd="99dp"
+        android:layout_gravity="center_horizontal|center"
+        android:text="Vestido" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="23dp"
+        android:text="Selecione a peça de roupa"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="30sp" />
+
+</RelativeLayout>
